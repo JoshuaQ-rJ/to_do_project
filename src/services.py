@@ -3,7 +3,7 @@ def create_task():
     title=input("ingrese un titulo: ")
     description=input("ingrese la descripcion: ")
     priority=input("ingrese la prioridad: ")
-    status=input("ingrese en estado: ") 
+    status="por hacer"
         
     tasks.append({"title":title,"description":description,"priority":priority,"status":status})    
     for i in tasks:
